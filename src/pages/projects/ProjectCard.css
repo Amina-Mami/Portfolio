@@ -95,7 +95,7 @@
   flex-grow: 1;
 }
 
-.btn-primary {
+.btn.btn-primary {
   background-color: #ebee2f;
   border-color: #ebee2f;
   color: #333;
