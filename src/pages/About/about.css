@@ -1,0 +1,114 @@
+/* about.css */
+.about-container {
+  margin-top: 170px;
+}
+.about-section {
+  height: 1500px;
+  color: white; /* White text color */
+
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  animation: fadeInDown 1s ease both;
+}
+
+.quote {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease both;
+}
+
+.education {
+  margin-top: 100px;
+  animation: fadeInUp 1s ease both;
+}
+
+.certification {
+  margin-top: 120px;
+  animation: fadeInUp 1s ease both;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Adjust the shadow on hover for a lift effect */
+}
+
+/* Center the images in the card */
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 2rem;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+/* Specific styling for certLogo1 class */
+.certLogo1 {
+  width: 170px;
+  height: auto;
+  max-width: 100%;
+  max-height: 150px;
+}
+
+/* Align the blockquote text properly */
+.blockquote {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  height: 70px;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Additional animations for text */
+.text-animation {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s; /* Adjust delay as needed */
+}

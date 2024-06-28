@@ -1,0 +1,75 @@
+/* Contact section styles */
+.contact-section {
+  color: #fff; /* White text color */
+  padding: 2rem 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  height: 300px;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInDown 1s ease-out; /* Example of CSS animation */
+}
+
+.info {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-out; /* Example of CSS animation */
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+}
+
+.social-icon {
+  vertical-align: middle;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,113 @@
+.project-card {
+  width: 400px; /* Set maximum width to maintain responsiveness */
+  height: 650px;
+  margin: 0 auto; /* Center the card horizontally */
+  padding: 10px; /* Adjust padding to provide space around the content */
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 12px;
+}
+.container-fluid {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.project-card .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card .project-img {
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-card .project-img img {
+  width: 100%;
+
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project-img img:hover {
+  transform: scale(1.1);
+}
+
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.project-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  height: 70px;
+}
+
+.project-card .list-group-item {
+  border: none;
+
+  font-size: 0.9rem;
+  color: #777;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.project-card .icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.project-card .desktop-icon {
+  color: #007bff; /* Blue color for desktop icon */
+}
+
+.project-card .branch-icon {
+  color: #28a745; /* Green color for branch icon */
+}
+
+.project-card .database-icon {
+  color: #dc3545; /* Red color for database icon */
+}
+
+.project-card .tools-icon {
+  color: #ffc107; /* Yellow color for tools icon */
+}
+
+.project-card .icon-text {
+  flex-grow: 1;
+}
+
+.btn-primary {
+  background-color: #ebee2f;
+  border-color: #ebee2f;
+  color: #333;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-dark {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #1edf0d;
+  border-color: #1edf0d;
+  color: #fff;
+}
